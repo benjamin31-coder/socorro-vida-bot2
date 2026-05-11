@@ -1,0 +1,13 @@
+{
+  "name": "socorro-vida-bot",
+  "version": "3.0.0",
+  "description": "Bot de WhatsApp para primeros auxilios — Cochabamba, Bolivia",
+  "main": "api/webhook.js",
+  "scripts": {
+    "start": "node api/webhook.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0"
+  },
+  "engines": { "node": ">=18.0.0" }
+}
